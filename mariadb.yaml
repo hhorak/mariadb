@@ -1,0 +1,32 @@
+data:
+  api:
+      rpms:
+          - mariadb
+  components:
+    rpms:
+      compat-openssl10: {rationale: Build and runtime dependency.}
+      libaio: {rationale: Build dependency.}
+      libedit: {rationale: Build dependency.}
+      mariadb: {rationale: Runtime dependency.}
+      multilib-rpm-config: {rationale: Build dependency.}
+      pcre: {rationale: Build dependency.}
+      perl: {rationale: Runtime dependency.}
+      selinux-policy: {rationale: Build dependency.}
+  description: 'MariaDB is a community developed branch of MySQL.
+
+    MariaDB is a multi-user, multi-threaded SQL database server.
+
+    It is a client/server implementation consisting of a server daemon (mysqld)
+
+    and many different client programs and libraries. The base package
+
+    contains the standard MariaDB/MySQL client programs and generic MySQL files.'
+  filter: {}
+  license:
+    module: [GPLv2 with exceptions and LGPLv2 and BSD]
+  name: ''
+  stream: ''
+  summary: A community developed branch of MySQL
+  version: 0
+document: modulemd
+version: 1
