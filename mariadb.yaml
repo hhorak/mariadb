@@ -1,32 +1,38 @@
-data:
-  api:
-      rpms:
-          - mariadb
-  components:
-    rpms:
-      compat-openssl10: {rationale: Build and runtime dependency.}
-      libaio: {rationale: Build dependency.}
-      libedit: {rationale: Build dependency.}
-      mariadb: {rationale: Runtime dependency.}
-      multilib-rpm-config: {rationale: Build dependency.}
-      pcre: {rationale: Build dependency.}
-      perl: {rationale: Runtime dependency.}
-      selinux-policy: {rationale: Build dependency.}
-  description: 'MariaDB is a community developed branch of MySQL.
-
-    MariaDB is a multi-user, multi-threaded SQL database server.
-
-    It is a client/server implementation consisting of a server daemon (mysqld)
-
-    and many different client programs and libraries. The base package
-
-    contains the standard MariaDB/MySQL client programs and generic MySQL files.'
-  filter: {}
-  license:
-    module: [GPLv2 with exceptions and LGPLv2 and BSD]
-  name: ''
-  stream: ''
-  summary: A community developed branch of MySQL
-  version: 0
 document: modulemd
 version: 1
+data:
+    summary: MariaDB Module
+    description:  MariaDB is a community developed branch of MySQL.
+                  MariaDB is a multi-user, multi-threaded SQL database server.
+                  It is a client/server implementation consisting of a server daemon (mysqld)
+                  and many different client programs and libraries. The base package
+                  contains the standard MariaDB/MySQL client programs and generic MySQL files.
+    license:
+        module: [ GPLv2 with exceptions and LGPLv2 and BSD ]
+    dependencies:
+        buildrequires:
+            base-runtime: master
+            perl: master
+            common-build-dependencies-bootstrap: f26
+            common-build-dependencies: f26
+        requires:
+            base-runtime: master
+            perl: master
+    references:
+        community: https://fedoraproject.org/wiki/Modularity
+        documentation: https://fedoraproject.org/wiki/Fedora_Packaging_Guidelines_for_Modules
+        tracker: https://taiga.fedorainfracloud.org/project/modularity
+    profiles:
+        default:
+            rpms:
+                - mariadb
+    api:
+        rpms:
+                - mariadb
+    components:
+        rpms:
+            mariadb:
+                rationale:  A dependency.
+                ref: f26
+                buildorder: 10
+
