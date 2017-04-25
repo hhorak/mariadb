@@ -15,7 +15,7 @@ data:
             perl: master
             common-build-dependencies-bootstrap: f26
             common-build-dependencies: f26
-            shared-userspave: f26
+            shared-userspace: f26
         requires:
             base-runtime: master
             perl: master
