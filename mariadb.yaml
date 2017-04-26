@@ -33,18 +33,18 @@ data:
     components:
         rpms:
             mariadb:
-                rationale:  MariaDB package.
+                rationale:  MariaDB  package.
                 ref: f26
                 buildorder: 10
             compat-openssl10:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-            libaio-devel:
+            libaio:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-            libedit-devel:
+            libedit:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
