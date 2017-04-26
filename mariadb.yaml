@@ -33,7 +33,30 @@ data:
     components:
         rpms:
             mariadb:
-                rationale:  A dependency.
+                rationale:  Mariadb package.
                 ref: f26
                 buildorder: 10
-
+            compat-openssl10-devel:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
+            libaio-devel:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
+            libedit-devel:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
+            selinux-policy-devel:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
+            systemtap-sdt-devel:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
+            time:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
