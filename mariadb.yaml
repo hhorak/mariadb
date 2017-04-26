@@ -33,7 +33,7 @@ data:
     components:
         rpms:
             mariadb:
-                rationale:  Mariadb package.
+                rationale:  MariaDB package.
                 ref: f26
                 buildorder: 10
             compat-openssl10:
@@ -52,10 +52,10 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-            systemtap-sdt:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
+#            systemtap-sdt:
+#                rationale:  A dependency of mariadb.
+#                ref: f26
+#                buildorder: 5
             time:
                 rationale:  A dependency of mariadb.
                 ref: f26
