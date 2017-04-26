@@ -36,7 +36,7 @@ data:
                 rationale:  Mariadb package.
                 ref: f26
                 buildorder: 10
-            compat-openssl10-devel:
+            compat-openssl10:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
@@ -48,11 +48,11 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-            selinux-policy-devel:
+            selinux-policy:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-            systemtap-sdt-devel:
+            systemtap-sdt:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
