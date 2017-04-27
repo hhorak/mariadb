@@ -13,9 +13,8 @@ data:
         buildrequires:
             base-runtime: master
             perl: master
-            common-build-dependencies-bootstrap: f26
             common-build-dependencies: f26
-            shared-userspace: f26
+#            shared-userspace: f26
         requires:
             base-runtime: master
             perl: master
@@ -36,27 +35,31 @@ data:
                 rationale:  MariaDB  package.
                 ref: f26
                 buildorder: 10
-            compat-openssl10:
-                rationale:  A dependency of mariadb.
+            systemtap:
+                rationale:  MariaDB  package.
                 ref: f26
                 buildorder: 5
-            libaio:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
-            libedit:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
-            selinux-policy:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
+#           compat-openssl10:
+#               rationale:  A dependency of mariadb.
+#               ref: f26
+#               buildorder: 5
+#           libaio:
+#               rationale:  A dependency of mariadb.
+#               ref: f26
+#               buildorder: 5
+#           libedit:
+#               rationale:  A dependency of mariadb.
+#               ref: f26
+#               buildorder: 5
+#           selinux-policy:
+#               rationale:  A dependency of mariadb.
+#               ref: f26
+#               buildorder: 5
 #            systemtap-sdt:
 #                rationale:  A dependency of mariadb.
 #                ref: f26
 #                buildorder: 5
-            time:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
+#           time:
+#               rationale:  A dependency of mariadb.
+#               ref: f26
+#               buildorder: 5
