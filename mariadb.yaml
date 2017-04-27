@@ -39,27 +39,27 @@ data:
 #                rationale:  MariaDB  package.
 #                ref: f26
 #                buildorder: 5
-           compat-openssl10:
-               rationale:  A dependency of mariadb.
-               ref: f26
-               buildorder: 5
-           libaio:
-               rationale:  A dependency of mariadb.
-               ref: f26
-               buildorder: 5
-           libedit:
-               rationale:  A dependency of mariadb.
-               ref: f26
-               buildorder: 5
-           selinux-policy:
-               rationale:  A dependency of mariadb.
-               ref: f26
-               buildorder: 5
+            compat-openssl10:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
+            libaio:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
+            libedit:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
+            selinux-policy:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
             systemtap-sdt:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-           time:
-               rationale:  A dependency of mariadb.
-               ref: f26
-               buildorder: 5
+            time:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 5
