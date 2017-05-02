@@ -14,5 +14,11 @@ selinux-policy
 runtime dependencies calculated by brt_dep_solver
 -------------------------------------------------
 compat-openssl10
+libaio
+libedit
 mariadb
+multilib-rpm-config
+pcre
 perl
+perl-generators
+selinux-policy
