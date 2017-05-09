@@ -11,14 +11,14 @@ data:
         module: [ GPLv2 with exceptions and LGPLv2 and BSD ]
     dependencies:
         buildrequires:
-            base-runtime: master
-            perl: master
+            base-runtime: f26
+            perl: f26
             bootstrap: master
             common-build-dependencies: f26
             shared-userspace: f26
         requires:
-            base-runtime: master
-            perl: master
+            base-runtime: f25
+            perl: f25
     references:
         community: https://fedoraproject.org/wiki/Modularity
         documentation: https://fedoraproject.org/wiki/Fedora_Packaging_Guidelines_for_Modules
