@@ -57,7 +57,7 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-            systemtap-sdt:
+            systemtap:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
