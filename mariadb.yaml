@@ -37,6 +37,14 @@ data:
                 rationale:  MariaDB  package.
                 ref: f26
                 buildorder: 10
+            checkpolicy:
+                rationale:  Dep of selinux-policy  package.
+                ref: f26
+                buildorder: 4
+           policycoreutils:
+                rationale:  Dep of selinux-policy  package.
+                ref: f26
+                buildorder: 4
             systemtap:
                 rationale:  MariaDB  package.
                 ref: f26
@@ -54,10 +62,6 @@ data:
                 ref: f26
                 buildorder: 5
             selinux-policy:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
-            systemtap:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
