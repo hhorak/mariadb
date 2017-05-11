@@ -45,6 +45,22 @@ data:
                 rationale:  Dep of selinux-policy  package.
                 ref: f26
                 buildorder: 4
+            dbus-glib:
+                rationale:  Dep of policycoreutils  package.
+                ref: f26
+                buildorder: 3
+            desktop-file-utils:
+                rationale:  Dep of policycoreutils  package.
+                ref: f26
+                buildorder: 3
+            libcgroup:
+                rationale:  Dep of policycoreutils  package.
+                ref: f26
+                buildorder: 3
+            libselinux:
+                rationale:  Dep of policycoreutils  package.
+                ref: f26
+                buildorder: 3
             systemtap:
                 rationale:  MariaDB  package.
                 ref: f26
