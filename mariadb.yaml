@@ -41,7 +41,7 @@ data:
                 rationale:  Dep of selinux-policy  package.
                 ref: f26
                 buildorder: 4
-           policycoreutils:
+            policycoreutils:
                 rationale:  Dep of selinux-policy  package.
                 ref: f26
                 buildorder: 4
