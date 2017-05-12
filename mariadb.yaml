@@ -13,7 +13,7 @@ data:
         buildrequires:
 #           base-runtime: f26
             perl: f26
-            bootstrap: master
+            bootstrap: f26
             common-build-dependencies: f26
             shared-userspace: f26
         requires:
