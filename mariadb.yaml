@@ -11,9 +11,9 @@ data:
         module: [ GPLv2 with exceptions and LGPLv2 and BSD ]
     dependencies:
         buildrequires:
-            base-runtime: f26
+#           base-runtime: f26
             perl: f26
-#           bootstrap: f26
+            bootstrap: f26
             common-build-dependencies: f26
             shared-userspace: f26
         requires:
