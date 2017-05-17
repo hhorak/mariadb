@@ -2,8 +2,8 @@ document: modulemd
 version: 1
 data:
     summary: MariaDB Module
-    description:  MariaDB is a community developed branch of MySQL.
-                  MariaDB is a multi-user, multi-threaded SQL database server.
+    description:  MariaDB is a community developed branch of MySQL. MariaDB is a multi-user, 
+                  multi-threaded SQL database server.
                   It is a client/server implementation consisting of a server daemon (mysqld)
                   and many different client programs and libraries. The base package
                   contains the standard MariaDB/MySQL client programs and generic MySQL files.
