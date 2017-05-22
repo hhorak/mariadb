@@ -15,7 +15,7 @@ data:
             perl: f26
             bootstrap: f26
             common-build-dependencies: f26
-            shared-userspace: f26
+#           shared-userspace: f26
         requires:
             shared-userspace: f26
             base-runtime: f26
