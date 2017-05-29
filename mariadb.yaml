@@ -15,7 +15,7 @@ data:
             perl: f26
             bootstrap: f26
             common-build-dependencies: f26
-            shared-userspace: f26
+#           shared-userspace: f26
         requires:
             shared-userspace: f26
             base-runtime: f26
@@ -85,3 +85,13 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
+            net-tools:
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 9
+            coreutils:
+# Probably not needed 
+                rationale:  A dependency of mariadb.
+                ref: f26
+                buildorder: 9
+
