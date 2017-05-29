@@ -35,7 +35,7 @@ data:
         rpms:
             mariadb:
                 rationale:  MariaDB  package.
-                ref: f26
+                ref: private-f26-modules-mariadb-notests
                 buildorder: 10
             checkpolicy:
                 rationale:  Dep of selinux-policy  package.
