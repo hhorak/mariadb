@@ -90,7 +90,6 @@ data:
                 ref: f26
                 buildorder: 9
             coreutils:
-# Probably not needed 
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 9
