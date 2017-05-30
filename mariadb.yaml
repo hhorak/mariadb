@@ -89,7 +89,7 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 9
-            coreutils:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 9
+#           coreutils:
+#               rationale:  A dependency of mariadb.
+#               ref: f26
+#               buildorder: 9
