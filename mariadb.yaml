@@ -41,10 +41,6 @@ data:
                 rationale: MariaDB server package.
                 ref: f26
                 buildorder: 10
-            mariadb-common:
-                rationale: MariaDB server dep.
-                ref: f26
-                buildorder: 9
             checkpolicy:
                 rationale:  Dep of selinux-policy  package.
                 ref: f26
