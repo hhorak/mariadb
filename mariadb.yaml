@@ -28,6 +28,7 @@ data:
         default:
             rpms:
                 - mariadb
+                - mariadb-server 
     api:
         rpms:
                 - mariadb
