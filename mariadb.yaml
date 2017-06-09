@@ -29,6 +29,12 @@ data:
             rpms:
                 - mariadb
                 - mariadb-server 
+        server:
+            rpms:
+                - mariadb-server 
+        client:
+            rpms:
+                - mariadb 
     api:
         rpms:
                 - mariadb
