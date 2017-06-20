@@ -39,7 +39,6 @@ data:
         rpms:
                 - mariadb
                 - mariadb-server
-                - gettext
     components:
         rpms:
             mariadb:
@@ -98,8 +97,8 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 9
-            gettext:
-               rationale:  A dependency of mariadb.
-               ref: f26
-               buildorder: 9
+#           gettext:
+#              rationale:  A dependency of mariadb.
+#              ref: f26
+#              buildorder: 9
 
