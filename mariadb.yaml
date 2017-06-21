@@ -65,10 +65,11 @@ data:
                 rationale:  Dep of policycoreutils  package.
                 ref: f26
                 buildorder: 3
-            libselinux:
-                rationale:  Dep of policycoreutils  package.
-                ref: f26
-                buildorder: 3
+#           libselinux:
+#               rationale:  Dep of policycoreutils  package.
+#               ref: f26
+#               buildorder: 3
+# this makes conflict with BRT 
             systemtap:
                 rationale:  A dependency of mariadb.
                 ref: f26
