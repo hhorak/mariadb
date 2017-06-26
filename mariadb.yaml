@@ -70,10 +70,10 @@ data:
 #               ref: f26
 #               buildorder: 3
 # this makes conflict with BRT 
-            systemtap:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
+#           systemtap:
+#               rationale:  A dependency of mariadb.
+#               ref: f26
+#               buildorder: 5
             compat-openssl10:
                 rationale:  A dependency of mariadb.
                 ref: f26
@@ -86,10 +86,10 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-            selinux-policy:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
+#           selinux-policy:
+#               rationale:  A dependency of mariadb.
+#               ref: f26
+#               buildorder: 5
             time:
                 rationale:  A dependency of mariadb.
                 ref: f26
@@ -102,4 +102,3 @@ data:
 #              rationale:  A dependency of mariadb.
 #              ref: f26
 #              buildorder: 9
-
