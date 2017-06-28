@@ -49,10 +49,10 @@ data:
                 rationale:  Dep of selinux-policy  package.
                 ref: f26
                 buildorder: 4
-            policycoreutils:
-                rationale:  Dep of selinux-policy  package.
-                ref: f26
-                buildorder: 4
+#            policycoreutils:
+#                rationale:  Dep of selinux-policy  package.
+#                ref: f26
+#                buildorder: 4
             dbus-glib:
                 rationale:  Dep of policycoreutils  package.
                 ref: f26
