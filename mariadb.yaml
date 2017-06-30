@@ -54,31 +54,18 @@ data:
                 rationale:  Dep of selinux-policy  package.
                 ref: f26
                 buildorder: 4
-#            policycoreutils:
-#                rationale:  Dep of selinux-policy  package.
+#            dbus-glib:
+#                rationale:  Dep of policycoreutils  package.
 #                ref: f26
-#                buildorder: 4
-            dbus-glib:
+#                buildorder: 3
+#            desktop-file-utils:
+#                rationale:  Dep of policycoreutils  package.
+#                ref: f26
+#                buildorder: 3
+#            libcgroup:
                 rationale:  Dep of policycoreutils  package.
                 ref: f26
                 buildorder: 3
-            desktop-file-utils:
-                rationale:  Dep of policycoreutils  package.
-                ref: f26
-                buildorder: 3
-            libcgroup:
-                rationale:  Dep of policycoreutils  package.
-                ref: f26
-                buildorder: 3
-#           libselinux:
-#               rationale:  Dep of policycoreutils  package.
-#               ref: f26
-#               buildorder: 3
-# this makes conflict with BRT 
-#           systemtap:
-#               rationale:  A dependency of mariadb.
-#               ref: f26
-#               buildorder: 5
             compat-openssl10:
                 rationale:  A dependency of mariadb.
                 ref: f26
@@ -91,10 +78,6 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 5
-#           selinux-policy:
-#               rationale:  A dependency of mariadb.
-#               ref: f26
-#               buildorder: 5
             time:
                 rationale:  A dependency of mariadb.
                 ref: f26
@@ -103,7 +86,3 @@ data:
                 rationale:  A dependency of mariadb.
                 ref: f26
                 buildorder: 9
-#           gettext:
-#              rationale:  A dependency of mariadb.
-#              ref: f26
-#              buildorder: 9
