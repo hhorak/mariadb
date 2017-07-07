@@ -50,10 +50,10 @@ data:
                 rationale:  MariaDB  package.
                 ref: private-f26-modules-mariadb-notests
                 buildorder: 10
-            checkpolicy:
-                rationale:  Dep of selinux-policy  package.
-                ref: f26
-                buildorder: 4
+#            checkpolicy:
+#                rationale:  Dep of selinux-policy  package.
+#                ref: f26
+#                buildorder: 4
 #            dbus-glib:
 #                rationale:  Dep of policycoreutils  package.
 #                ref: f26
@@ -63,25 +63,25 @@ data:
 #                ref: f26
 #                buildorder: 3
 #            libcgroup:
-                rationale:  Dep of policycoreutils  package.
-                ref: f26
-                buildorder: 3
-            compat-openssl10:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
-            libaio:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
-            libedit:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
-            time:
-                rationale:  A dependency of mariadb.
-                ref: f26
-                buildorder: 5
+#                rationale:  Dep of policycoreutils  package.
+#                ref: f26
+#                buildorder: 3
+#            compat-openssl10:
+#                rationale:  A dependency of mariadb.
+#                ref: f26
+#                buildorder: 5
+#            libaio:
+#                rationale:  A dependency of mariadb.
+#                ref: f26
+#                buildorder: 5
+#            libedit:
+#                rationale:  A dependency of mariadb.
+#                ref: f26
+#                buildorder: 5
+#            time:
+#                rationale:  A dependency of mariadb.
+#                ref: f26
+#                buildorder: 5
             net-tools:
                 rationale:  A dependency of mariadb.
                 ref: f26
