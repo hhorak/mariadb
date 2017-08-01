@@ -21,7 +21,6 @@ data:
     references:
          community: https://docs.pagure.org/modularity/
          documentation: https://github.com/container-images/mariadb/
-         tracker: https://github.com/modularity-modules/mariadb
     profiles:
         default:
             rpms:
