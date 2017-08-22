@@ -31,25 +31,40 @@ data:
         server:
             rpms:
                 - mariadb-server 
+                - mariadb-server-utils
                 - gettext
         client:
             rpms:
                 - mariadb 
+        galera:
+            rpms:
+                - mariadb-server-galera
+                - galera
+        embeddeddevel:
+            rpms:
+                - mariadb-embedded-devel
     api:
         rpms:
                 - mariadb
                 - mariadb-server
+                - mariadb-server-galera
+                - mariadb-server-utils
+                - galera
+                - mariadb-embedded
+                - mariadb-embedded-devel
     filter:
         rpms:   
                 - mariadb-bench
-                - mariadb-server-galera
-                - mariadb-server-utils
     components:
         rpms:
             mariadb:
                 rationale:  MariaDB  package.
                 ref: private-f26-modules-mariadb-notests
                 buildorder: 10
+            galera:
+                rationale:  Galera package.
+                ref: f26
+                buildorder: 20
 #            checkpolicy:
 #                rationale:  Dep of selinux-policy  package.
 #                ref: f26
