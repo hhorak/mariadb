@@ -41,6 +41,10 @@ data:
                 - mariadb-bench
                 - mariadb-server-galera
                 - mariadb-server-utils
+    buildopts:
+        rpms:
+            macros: |
+                %runselftest 0
     components:
         rpms:
             mariadb:
